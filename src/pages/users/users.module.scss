@@ -1,0 +1,21 @@
+.loadButlon {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgb(66, 66, 66);
+    border-radius: 5px;
+    color: white;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    transition-duration: .2s;
+    flex-direction: row;
+  }
+  
+  .loadButlon:hover {
+    background-color: rgb(77, 77, 77);
+    transition-duration: .2s;
+    justify-content: center;
+  }

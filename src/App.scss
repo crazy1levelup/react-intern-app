@@ -1,0 +1,21 @@
+@import "./styles/index.scss";
+
+.header {
+  background-color: #a4c991;
+  padding: 10px 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.layout-container {
+  min-height: 100vh;
+}
+
+.logo {
+  @include for-phone-only {
+    width: 50px;
+  }
+}
